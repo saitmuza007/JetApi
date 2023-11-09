@@ -1,5 +1,5 @@
 module.exports = {
-    URL: "mongodb://localhost:27017/Jet"
+    URL: "mongodb+srv://root:root@cluster0.xrexetn.mongodb.net/Jet"
   };
 
   
