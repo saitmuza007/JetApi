@@ -12,7 +12,7 @@ const contactusSchema = new Schema({
     type:String,
     required:true
  },
- subject:{
+ message:{
     type:String,
     required:true
  },
