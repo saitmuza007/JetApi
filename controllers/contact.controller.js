@@ -7,7 +7,7 @@ exports.contacts = async(req, res) => {
     const contactsData = new Contact({
       name:req.body.name,
       email:req.body.email,
-      subject:req.body.subject,
+    
       message:req.body.message,
       })
 
