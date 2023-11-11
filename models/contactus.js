@@ -16,10 +16,7 @@ const contactusSchema = new Schema({
     type:String,
     required:true
  },
- message:{
-    type:String,
-    required:true
- }
+
 });
 
 module.exports = mongoose.model("Contact", contactusSchema);
