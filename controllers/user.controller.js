@@ -10,15 +10,16 @@ exports.userData = async(req, res) => {
       firstName:req.body.firstName,
       lastName:req.body.lastName,
       email:req.body.email,
-      position:req.body.position,
-      company:req.body.company,
-      street:req.body.street,
-      suburb:req.body.suburb,
-      city:req.body.city,
-      country:req.body.country,
-      countrycode:req.body.countrycode,
-      postcode:req.body.postcode,
-      contactNumber:req.body.contactNumber,password:bcrypt.hashSync(req.body.password, 8)})
+      // position:req.body.position,
+      organisation:req.body.company,
+      // street:req.body.street,
+      // suburb:req.body.suburb,
+      // city:req.body.city,
+      // country:req.body.country,
+      // countrycode:req.body.countrycode,
+      // postcode:req.body.postcode,
+      // contactNumber:req.body.contactNumber,password:bcrypt.hashSync(req.body.password, 8)
+      })
 
 
   
