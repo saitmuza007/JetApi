@@ -17,6 +17,7 @@ const userSchema = new Schema({
 organisation:{
   type:String,
   required:true
+}
 // },
 // position:{
 //   type:String,
