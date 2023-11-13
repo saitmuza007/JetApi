@@ -11,7 +11,7 @@ exports.userData = async(req, res) => {
       lastName:req.body.lastName,
       email:req.body.email,
       // position:req.body.position,
-      organisation:req.body.company,
+      organisation:req.body.organisation,
       // street:req.body.street,
       // suburb:req.body.suburb,
       // city:req.body.city,
