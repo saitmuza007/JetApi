@@ -18,7 +18,7 @@ module.exports = function(app) {
     controller.getById
   );
 
-    app.post("/api/dataPost",[verifySignUp.checkDuplicateEmail],controller.userData)
+    app.post("/api/dataPost",controller.userData)
 
     app.post("/api/dataAccess",controller.accessPage)
   
