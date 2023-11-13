@@ -14,52 +14,53 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
-  contactNumber:{
-    type:String,
-    required:true
-  }
-, company:{
+organisation:{
   type:String,
   required:true
-},
-position:{
-  type:String,
-  required:true
-},
-street:{
-  type:String,
-  required:true
-},
-suburb:{
-  type:String,
-  required:true
-},
-city:{
-  type:String,
-  required:true
-},
-country:{
-  type:String,
-  required:true
-},
-password: {
-  type: String,
-  required: true,
-},
-countrycode:{
-  type:String,
-  required:true
-},
-postcode:{
-  type:String,
-  required:true
-},
-identity:{
-  type:String,
-  required:true,
-  default:"USER"
-},
-
+// },
+// position:{
+//   type:String,
+//   required:true
+// },
+// street:{
+//   type:String,
+//   required:true
+// },
+// suburb:{
+//   type:String,
+//   required:true
+// },
+// city:{
+//   type:String,
+//   required:true
+// },
+// country:{
+//   type:String,
+//   required:true
+// },
+// password: {
+//   type: String,
+//   required: true,
+// },
+// countrycode:{
+//   type:String,
+//   required:true
+// },
+// postcode:{
+//   type:String,
+//   required:true
+// },
+// identity:{
+//   type:String,
+//   required:true,
+//   default:"USER"
+// },
+  //   contactNumber:{
+//     type:String,
+//     required:true
+//   }
+// 
+,
   dataDate: {
     type: Date,
     default: Date.now
